@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Figure</OriginalElement>
+  <nodes>
+    <node x="3856.986111111112" y="2508.0">Graphics.Types.PaintableFigure</node>
+    <node x="6477.211270537787" y="3967.5">Utilities.Matrix.Rotation</node>
+    <node x="6987.977166783381" y="2586.0">Figure.Figures.Unpromotable.Gold</node>
+    <node x="6018.633416783382" y="2586.0">Figure.Figures.Promotable.Bishop</node>
+    <node x="2810.1111111111113" y="2102.0">Game.Cell</node>
+    <node x="7685.771527777779" y="2586.0">Figure.Figures.Promotable.Pawn</node>
+    <node x="7667.521527777779" y="3956.0">Utilities.Generator.Generator</node>
+    <node x="2364.0" y="2497.0">Game.PlayGround</node>
+    <node x="0.0" y="4924.0">Utilities.Figures.Calculations</node>
+    <node x="6899.479861111112" y="55.5">Figure.Rotation</node>
+    <node x="3678.1480746814914" y="2024.5">Graphics.ImageLayer</node>
+    <node x="1608.0" y="3890.0">Networking.MoveTask</node>
+    <node x="1250.0" y="4012.5">Utilities.Callback.Callback</node>
+    <node x="2072.0" y="3130.5">Game.Game</node>
+    <node x="5534.042361111112" y="533.0">Figure.Move</node>
+    <node x="5644.6848412510235" y="1326.0">Figure.IFigure</node>
+    <node x="1420.25" y="4385.0">Graphics.GUI.GUIManager</node>
+    <node x="7920.021527777779" y="2135.0">Figure.Setups.IFigureSetup</node>
+    <node x="3069.986111111112" y="2497.0">Graphics.Types.PaintableCell</node>
+    <node x="4445.140931824349" y="2943.0">Graphics.PaintableFactory</node>
+    <node x="4632.7681745843565" y="4728.0">sample.Main</node>
+    <node x="3813.736111111112" y="0.0">Graphics.ILayer</node>
+    <node x="0.0" y="3923.5">Graphics.GUI.Components.TextField</node>
+    <node x="251.0" y="4924.0">sample.Controller</node>
+    <node x="5321.6848412510235" y="2586.0">Figure.Figures.Unpromotable.King</node>
+    <node x="6723.891091251024" y="1447.0">Figure.Value</node>
+    <node x="2301.6111111111113" y="4329.0">Networking.MoveManager</node>
+    <node x="2990.111111111112" y="2113.0">Graphics.IPaintableStructure</node>
+    <node x="5707.633416783382" y="2586.0">Figure.Figures.Promotable.Silver</node>
+    <node x="4289.2473412510235" y="368.0">Graphics.TextLayer</node>
+    <node x="392.0" y="3923.5">Graphics.GUI.Components.Label</node>
+    <node x="3298.298611111112" y="1171.0">Graphics.Types.PaintableObject</node>
+    <node x="4684.0598412510235" y="434.0">Game.Player</node>
+    <node x="856.25" y="3629.0">Utilities.Callback.ICallback</node>
+    <node x="6329.633416783382" y="2586.0">Figure.Figures.Promotable.Lance</node>
+    <node x="2015.0" y="3529.0">Networking.MySQL.Manager</node>
+    <node x="6687.070916783382" y="1991.0">Figure.Figure</node>
+    <node x="5103.4348412510235" y="3562.0">Utilities.Debug.ConsoleResults</node>
+    <node x="1475.8738293462611" y="4650.0">Graphics.GUI.Prefabs.MainMenu</node>
+    <node x="817.0" y="3934.5">Graphics.GUI.Components.Button</node>
+    <node x="6676.977166783382" y="2586.0">Figure.Figures.Promotable.Knight</node>
+    <node x="1363.0" y="3935.0">Graphics.GUI.IGUIMenu</node>
+    <node x="3994.9750355787537" y="379.5">Graphics.IPaintable</node>
+    <node x="603.3202579176896" y="4274.0">Graphics.GUI.Prefabs.Menu</node>
+    <node x="1695.0" y="3584.0">Utilities.Callback.CallbackPackage</node>
+    <node x="7642.797341251024" y="4307.0">Figure.Setups.Classic</node>
+    <node x="7298.977166783381" y="2586.0">Figure.Figures.Promotable.Rook</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Figure.Setups.IFigureSetup" target="Figure.IFigure">
+      <point x="-67.0" y="-59.0" />
+      <point x="7987.021527777779" y="1871.0" />
+      <point x="5928.409841251024" y="1871.0" />
+      <point x="138.22500000000014" y="180.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Rook" target="Figure.Move">
+      <point x="36.375" y="-59.0" />
+      <point x="7480.852166783381" y="2477.0" />
+      <point x="7484.229861111112" y="2477.0" />
+      <point x="7484.229861111112" y="911.0" />
+      <point x="5743.899503968255" y="911.0" />
+      <point x="96.85714285714266" y="81.5" />
+    </edge>
+    <edge source="Networking.MoveManager" target="Networking.MoveTask">
+      <point x="-149.77777777777783" y="-93.0" />
+      <point x="2320.3333333333335" y="4254.0" />
+      <point x="1720.75" y="4254.0" />
+      <point x="-112.75" y="137.0" />
+    </edge>
+    <edge source="Networking.MoveTask" target="Utilities.Callback.CallbackPackage">
+      <point x="16.107142857143117" y="-137.0" />
+      <point x="1849.6071428571431" y="3830.0" />
+      <point x="1916.6666666666665" y="3830.0" />
+      <point x="88.66666666666669" y="70.5" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.Figures.Unpromotable.Gold">
+      <point x="53.59999999999991" y="-115.0" />
+      <point x="7830.397341251023" y="4214.0" />
+      <point x="7882.021527777779" y="4214.0" />
+      <point x="7882.021527777779" y="2823.0" />
+      <point x="7206.227166783381" y="2823.0" />
+      <point x="72.75" y="59.0" />
+    </edge>
+    <edge source="Graphics.GUI.Prefabs.MainMenu" target="Graphics.GUI.Components.Button">
+      <point x="-39.125" y="-114.5" />
+      <point x="1593.2488293462611" y="4620.0" />
+      <point x="1175.7369245843556" y="4620.0" />
+      <point x="1175.7369245843556" y="4244.0" />
+      <point x="1161.1666666666665" y="4244.0" />
+      <point x="137.66666666666652" y="92.5" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Knight" target="Figure.Figure">
+      <point x="-36.375" y="-59.0" />
+      <point x="6786.102166783382" y="2477.0" />
+      <point x="6833.883416783382" y="2477.0" />
+      <point x="16.3125" y="203.0" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Utilities.Matrix.Rotation">
+      <point x="-71.4666666666667" y="-115.0" />
+      <point x="7705.3306745843565" y="4224.0" />
+      <point x="6698.711270537787" y="4224.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Graphics.Types.PaintableCell">
+      <point x="-152.9000000000001" y="-258.0" />
+      <point x="4570.240931824349" y="2863.0" />
+      <point x="3261.736111111112" y="2863.0" />
+      <point x="-191.75" y="148.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Figure.Figures.Promotable.Silver">
+      <point x="97.29999999999995" y="-258.0" />
+      <point x="4820.440931824349" y="2863.0" />
+      <point x="5780.383416783382" y="2863.0" />
+      <point x="-72.75" y="59.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Bishop" target="Figure.Move">
+      <point x="-36.375" y="-59.0" />
+      <point x="6127.758416783382" y="2427.0" />
+      <point x="6187.2062855787535" y="2427.0" />
+      <point x="6187.2062855787535" y="971.0" />
+      <point x="5690.089980158731" y="971.0" />
+      <point x="43.047619047619264" y="81.5" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Knight" target="Figure.Rotation">
+      <point x="109.125" y="-59.0" />
+      <point x="6931.602166783382" y="2477.0" />
+      <point x="7119.102166783381" y="2477.0" />
+      <point x="7119.102166783381" y="328.0" />
+      <point x="6956.9210375817" y="328.0" />
+      <point x="10.941176470588289" y="58.5" />
+    </edge>
+    <edge source="Networking.MoveManager" target="Game.Game">
+      <point x="0.0" y="-93.0" />
+      <point x="2470.1111111111113" y="4214.0" />
+      <point x="2331.5" y="4214.0" />
+      <point x="2331.5" y="3499.0" />
+      <point x="2224.25" y="3499.0" />
+      <point x="50.75" y="70.5" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Bishop" target="Figure.Rotation">
+      <point x="36.375" y="-59.0" />
+      <point x="6200.508416783382" y="2427.0" />
+      <point x="6198.2062855787535" y="2427.0" />
+      <point x="6198.2062855787535" y="338.0" />
+      <point x="6935.038684640524" y="338.0" />
+      <point x="-10.941176470588289" y="58.5" />
+    </edge>
+    <edge source="Utilities.Debug.ConsoleResults" target="Graphics.PaintableFactory">
+      <point x="-69.25" y="-92.5" />
+      <point x="5172.6848412510235" y="3509.0" />
+      <point x="4908.474265157683" y="3509.0" />
+      <point x="185.33333333333348" y="258.0" />
+    </edge>
+    <edge source="Graphics.Types.PaintableCell" target="Graphics.IPaintableStructure">
+      <point x="-143.8125" y="-148.0" />
+      <point x="3309.673611111112" y="2447.0" />
+      <point x="3105.736111111112" y="2447.0" />
+      <point x="23.125" y="81.0" />
+    </edge>
+    <edge source="Game.PlayGround" target="Game.Cell">
+      <point x="93.0" y="-148.0" />
+      <point x="2643.0" y="2467.0" />
+      <point x="2850.1111111111113" y="2467.0" />
+      <point x="-40.0" y="92.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Figure.Figures.Unpromotable.King">
+      <point x="69.5" y="-258.0" />
+      <point x="4792.640931824349" y="2853.0" />
+      <point x="5394.4348412510235" y="2853.0" />
+      <point x="-72.75" y="59.0" />
+    </edge>
+    <edge source="Figure.Figure" target="Figure.Move">
+      <point x="48.9375" y="-203.0" />
+      <point x="6866.508416783382" y="1951.0" />
+      <point x="6953.734841251024" y="1951.0" />
+      <point x="6953.734841251024" y="941.0" />
+      <point x="5711.61378968254" y="941.0" />
+      <point x="64.57142857142844" y="81.5" />
+    </edge>
+    <edge source="Figure.Figure" target="Figure.IFigure">
+      <point x="-114.1875" y="-203.0" />
+      <point x="6703.383416783382" y="1941.0" />
+      <point x="5855.659841251024" y="1941.0" />
+      <point x="65.47500000000014" y="180.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Lance" target="Figure.Figure">
+      <point x="109.125" y="-59.0" />
+      <point x="6584.258416783382" y="2467.0" />
+      <point x="6801.258416783382" y="2467.0" />
+      <point x="-16.3125" y="203.0" />
+    </edge>
+    <edge source="Graphics.Types.PaintableFigure" target="Graphics.Types.PaintableObject">
+      <point x="40.8125" y="-137.0" />
+      <point x="4224.298611111112" y="2477.0" />
+      <point x="4197.923611111112" y="2477.0" />
+      <point x="4197.923611111112" y="1861.0" />
+      <point x="3614.0128968253975" y="1861.0" />
+      <point x="145.71428571428578" y="335.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Game.Player">
+      <point x="13.900000000000091" y="-258.0" />
+      <point x="4737.040931824349" y="2833.0" />
+      <point x="4815.4348412510235" y="2833.0" />
+      <point x="4815.4348412510235" y="1041.0" />
+      <point x="4811.1223412510235" y="1041.0" />
+      <point x="20.0625" y="180.5" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.Figures.Promotable.Knight">
+      <point x="35.73333333333312" y="-115.0" />
+      <point x="7812.530674584356" y="4204.0" />
+      <point x="7871.021527777779" y="4204.0" />
+      <point x="7871.021527777779" y="2833.0" />
+      <point x="6895.227166783382" y="2833.0" />
+      <point x="72.75" y="59.0" />
+    </edge>
+    <edge source="Figure.Figure" target="Game.Player">
+      <point x="-48.9375" y="-203.0" />
+      <point x="6768.633416783382" y="1921.0" />
+      <point x="6686.547341251024" y="1921.0" />
+      <point x="6686.547341251024" y="951.0" />
+      <point x="4864.6223412510235" y="951.0" />
+      <point x="73.5625" y="180.5" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Lance" target="Figure.Rotation">
+      <point x="36.375" y="-59.0" />
+      <point x="6511.508416783382" y="2427.0" />
+      <point x="6675.547341251024" y="2427.0" />
+      <point x="6675.547341251024" y="348.0" />
+      <point x="6940.509272875817" y="348.0" />
+      <point x="-5.470588235294144" y="58.5" />
+    </edge>
+    <edge source="Figure.Figure" target="Figure.Rotation">
+      <point x="81.5625" y="-203.0" />
+      <point x="6899.133416783382" y="1961.0" />
+      <point x="6964.734841251024" y="1961.0" />
+      <point x="6964.734841251024" y="348.0" />
+      <point x="6945.979861111112" y="348.0" />
+      <point x="0.0" y="58.5" />
+    </edge>
+    <edge source="Networking.MoveTask" target="Networking.MySQL.Manager">
+      <point x="177.17857142857156" y="-137.0" />
+      <point x="2010.6785714285716" y="3860.0" />
+      <point x="2040.5" y="3860.0" />
+      <point x="-127.5" y="125.5" />
+    </edge>
+    <edge source="Utilities.Debug.ConsoleResults" target="Figure.IFigure">
+      <point x="69.25" y="-92.5" />
+      <point x="5311.1848412510235" y="1951.0" />
+      <point x="5739.259841251023" y="1951.0" />
+      <point x="-50.924999999999955" y="180.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Bishop" target="Figure.Figure">
+      <point x="109.125" y="-59.0" />
+      <point x="6273.258416783382" y="2457.0" />
+      <point x="6768.633416783382" y="2457.0" />
+      <point x="-48.9375" y="203.0" />
+    </edge>
+    <edge source="Networking.MoveTask" target="Utilities.Callback.ICallback">
+      <point x="-177.17857142857156" y="-137.0" />
+      <point x="1656.3214285714284" y="3840.0" />
+      <point x="977.1388888888887" y="3840.0" />
+      <point x="56.888888888888914" y="25.5" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.Figures.Promotable.Bishop">
+      <point x="-35.73333333333312" y="-115.0" />
+      <point x="7741.06400791769" y="4204.0" />
+      <point x="7646.021527777779" y="4204.0" />
+      <point x="7646.021527777779" y="2853.0" />
+      <point x="6236.883416783382" y="2853.0" />
+      <point x="72.75" y="59.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Rook" target="Figure.Rotation">
+      <point x="109.125" y="-59.0" />
+      <point x="7553.602166783381" y="2477.0" />
+      <point x="7495.229861111112" y="2477.0" />
+      <point x="7495.229861111112" y="308.0" />
+      <point x="6967.862214052288" y="308.0" />
+      <point x="21.882352941176578" y="58.5" />
+    </edge>
+    <edge source="Graphics.GUI.Prefabs.MainMenu" target="Networking.MySQL.Manager">
+      <point x="117.375" y="-114.5" />
+      <point x="1749.7488293462611" y="4630.0" />
+      <point x="2173.5" y="4630.0" />
+      <point x="2173.5" y="3870.0" />
+      <point x="2193.5" y="3870.0" />
+      <point x="25.5" y="125.5" />
+    </edge>
+    <edge source="Networking.MySQL.Manager" target="Game.Player">
+      <point x="-87.42857142857156" y="-125.5" />
+      <point x="2080.5714285714284" y="3489.0" />
+      <point x="2050.5" y="3489.0" />
+      <point x="2050.5" y="1001.0" />
+      <point x="4730.8723412510235" y="1001.0" />
+      <point x="-60.1875" y="180.5" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Rook" target="Figure.IFigure">
+      <point x="-36.375" y="-59.0" />
+      <point x="7408.102166783381" y="2457.0" />
+      <point x="7368.047341251024" y="2457.0" />
+      <point x="7368.047341251024" y="1891.0" />
+      <point x="5899.3098412510235" y="1891.0" />
+      <point x="109.125" y="180.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Figure.Figures.Promotable.Pawn">
+      <point x="264.0999999999999" y="-258.0" />
+      <point x="4987.240931824349" y="2923.0" />
+      <point x="7758.521527777779" y="2923.0" />
+      <point x="-72.75" y="59.0" />
+    </edge>
+    <edge source="Graphics.GUI.Prefabs.Menu" target="Graphics.GUI.Components.TextField">
+      <point x="-61.14285714285714" y="-148.0" />
+      <point x="649.1774007748327" y="4244.0" />
+      <point x="279.0" y="4244.0" />
+      <point x="93.0" y="103.5" />
+    </edge>
+    <edge source="Graphics.IPaintable" target="Graphics.ILayer">
+      <point x="0.0" y="-235.0" />
+      <point x="4104.975035578754" y="268.0" />
+      <point x="3912.436111111112" y="268.0" />
+      <point x="28.200000000000045" y="114.0" />
+    </edge>
+    <edge source="Graphics.Types.PaintableCell" target="Game.Cell">
+      <point x="-239.6875" y="-148.0" />
+      <point x="3213.798611111112" y="2457.0" />
+      <point x="2956.7777777777783" y="2457.0" />
+      <point x="66.66666666666652" y="92.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Pawn" target="Figure.Rotation">
+      <point x="109.125" y="-59.0" />
+      <point x="7940.396527777779" y="2477.0" />
+      <point x="7909.521527777779" y="2477.0" />
+      <point x="7909.521527777779" y="288.0" />
+      <point x="6978.803390522877" y="288.0" />
+      <point x="32.823529411764866" y="58.5" />
+    </edge>
+    <edge source="Figure.Figure" target="Figure.Value">
+      <point x="16.3125" y="-203.0" />
+      <point x="6833.883416783382" y="1941.0" />
+      <point x="6872.391091251024" y="1941.0" />
+      <point x="49.5" y="59.0" />
+    </edge>
+    <edge source="Figure.Setups.IFigureSetup" target="Figure.Rotation">
+      <point x="67.0" y="-59.0" />
+      <point x="8121.021527777779" y="278.0" />
+      <point x="6984.27397875817" y="278.0" />
+      <point x="38.294117647058556" y="58.5" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Knight" target="Figure.IFigure">
+      <point x="-109.125" y="-59.0" />
+      <point x="6713.352166783382" y="2417.0" />
+      <point x="6664.547341251024" y="2417.0" />
+      <point x="6664.547341251024" y="1951.0" />
+      <point x="5841.109841251024" y="1951.0" />
+      <point x="50.92500000000018" y="180.0" />
+    </edge>
+    <edge source="Networking.MoveTask" target="Figure.Move">
+      <point x="48.32142857142844" y="-137.0" />
+      <point x="1881.8214285714284" y="3840.0" />
+      <point x="1971.5" y="3840.0" />
+      <point x="1971.5" y="1061.0" />
+      <point x="5550.18521825397" y="1061.0" />
+      <point x="-96.85714285714266" y="81.5" />
+    </edge>
+    <edge source="Figure.Figures.Unpromotable.King" target="Figure.Rotation">
+      <point x="-109.125" y="-59.0" />
+      <point x="5358.0598412510235" y="2477.0" />
+      <point x="4986.141091251024" y="2477.0" />
+      <point x="4986.141091251024" y="308.0" />
+      <point x="6918.626919934642" y="308.0" />
+      <point x="-27.352941176470267" y="58.5" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Figure.IFigure">
+      <point x="41.700000000000045" y="-258.0" />
+      <point x="4764.840931824348" y="2843.0" />
+      <point x="4997.141091251024" y="2843.0" />
+      <point x="4997.141091251024" y="1931.0" />
+      <point x="5710.159841251023" y="1931.0" />
+      <point x="-80.02500000000009" y="180.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Lance" target="Figure.Move">
+      <point x="-36.375" y="-59.0" />
+      <point x="6438.758416783382" y="2417.0" />
+      <point x="6642.133416783382" y="2417.0" />
+      <point x="6642.133416783382" y="961.0" />
+      <point x="5700.851884920636" y="961.0" />
+      <point x="53.80952380952385" y="81.5" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Lance" target="Figure.IFigure">
+      <point x="-109.125" y="-59.0" />
+      <point x="6366.008416783382" y="2417.0" />
+      <point x="6176.2062855787535" y="2417.0" />
+      <point x="6176.2062855787535" y="1971.0" />
+      <point x="5812.009841251023" y="1971.0" />
+      <point x="21.825000000000045" y="180.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Game.Cell">
+      <point x="-236.30000000000018" y="-258.0" />
+      <point x="4486.840931824348" y="2893.0" />
+      <point x="2903.4444444444453" y="2893.0" />
+      <point x="13.333333333333485" y="92.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Silver" target="Figure.Rotation">
+      <point x="36.375" y="-59.0" />
+      <point x="5889.508416783382" y="2427.0" />
+      <point x="5946.1848412510235" y="2427.0" />
+      <point x="5946.1848412510235" y="328.0" />
+      <point x="6929.56809640523" y="328.0" />
+      <point x="-16.411764705882433" y="58.5" />
+    </edge>
+    <edge source="Graphics.Types.PaintableCell" target="Graphics.Types.PaintableObject">
+      <point x="47.9375" y="-148.0" />
+      <point x="3501.423611111112" y="2477.0" />
+      <point x="3457.298611111112" y="2477.0" />
+      <point x="3457.298611111112" y="1871.0" />
+      <point x="3419.7271825396833" y="1871.0" />
+      <point x="-48.57142857142867" y="335.0" />
+    </edge>
+    <edge source="Networking.MySQL.Manager" target="Game.PlayGround">
+      <point x="131.14285714285688" y="-125.5" />
+      <point x="2299.142857142857" y="3509.0" />
+      <point x="2296.5" y="3509.0" />
+      <point x="2296.5" y="2923.0" />
+      <point x="2519.0" y="2923.0" />
+      <point x="-31.0" y="148.0" />
+    </edge>
+    <edge source="Figure.Figures.Unpromotable.Gold" target="Figure.Rotation">
+      <point x="109.125" y="-59.0" />
+      <point x="7242.602166783381" y="2477.0" />
+      <point x="7430.102166783381" y="2477.0" />
+      <point x="7430.102166783381" y="318.0" />
+      <point x="6962.391625816994" y="318.0" />
+      <point x="16.411764705882433" y="58.5" />
+    </edge>
+    <edge source="Graphics.Types.PaintableObject" target="Graphics.ILayer">
+      <point x="-113.33333333333326" y="-335.0" />
+      <point x="3354.9652777777787" y="961.0" />
+      <point x="3366.5883538711196" y="961.0" />
+      <point x="3366.5883538711196" y="248.0" />
+      <point x="3827.836111111112" y="248.0" />
+      <point x="-56.39999999999998" y="114.0" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.Figures.Unpromotable.King">
+      <point x="-107.20000000000027" y="-115.0" />
+      <point x="7669.597341251023" y="4244.0" />
+      <point x="5539.9348412510235" y="4244.0" />
+      <point x="72.75" y="59.0" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.Figures.Promotable.Lance">
+      <point x="-17.866666666666788" y="-115.0" />
+      <point x="7758.930674584357" y="4194.0" />
+      <point x="7657.021527777779" y="4194.0" />
+      <point x="7657.021527777779" y="2843.0" />
+      <point x="6547.883416783382" y="2843.0" />
+      <point x="72.75" y="59.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Knight" target="Figure.Move">
+      <point x="36.375" y="-59.0" />
+      <point x="6858.852166783382" y="2467.0" />
+      <point x="7068.047341251024" y="2467.0" />
+      <point x="7068.047341251024" y="931.0" />
+      <point x="5722.375694444446" y="931.0" />
+      <point x="75.33333333333348" y="81.5" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Pawn" target="Figure.Figure">
+      <point x="-109.125" y="-59.0" />
+      <point x="7722.146527777779" y="2437.0" />
+      <point x="6931.758416783382" y="2437.0" />
+      <point x="114.1875" y="203.0" />
+    </edge>
+    <edge source="Networking.MoveManager" target="Figure.Move">
+      <point x="112.33333333333303" y="-93.0" />
+      <point x="2582.4444444444443" y="4244.0" />
+      <point x="2746.5" y="4244.0" />
+      <point x="2746.5" y="1121.0" />
+      <point x="5614.756646825398" y="1121.0" />
+      <point x="-32.28571428571422" y="81.5" />
+    </edge>
+    <edge source="Utilities.Matrix.Rotation" target="Figure.IFigure">
+      <point x="0.0" y="-59.5" />
+      <point x="6698.711270537787" y="3870.0" />
+      <point x="6631.133416783382" y="3870.0" />
+      <point x="6631.133416783382" y="1961.0" />
+      <point x="5826.5598412510235" y="1961.0" />
+      <point x="36.375" y="180.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Figure.Figures.Promotable.Bishop">
+      <point x="125.09999999999991" y="-258.0" />
+      <point x="4848.240931824349" y="2873.0" />
+      <point x="6091.383416783382" y="2873.0" />
+      <point x="-72.75" y="59.0" />
+    </edge>
+    <edge source="Figure.Figures.Unpromotable.King" target="Figure.Figure">
+      <point x="109.125" y="-59.0" />
+      <point x="5576.3098412510235" y="2437.0" />
+      <point x="6703.383416783382" y="2437.0" />
+      <point x="-114.1875" y="203.0" />
+    </edge>
+    <edge source="Graphics.Types.PaintableFigure" target="Graphics.IPaintableStructure">
+      <point x="-285.6875" y="-137.0" />
+      <point x="3897.798611111112" y="2437.0" />
+      <point x="3151.986111111112" y="2437.0" />
+      <point x="69.375" y="81.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Bishop" target="Figure.IFigure">
+      <point x="-109.125" y="-59.0" />
+      <point x="6055.008416783382" y="2417.0" />
+      <point x="5795.6848412510235" y="2417.0" />
+      <point x="5795.6848412510235" y="1971.0" />
+      <point x="5797.459841251024" y="1971.0" />
+      <point x="7.275000000000091" y="180.0" />
+    </edge>
+    <edge source="Graphics.GUI.Components.Button" target="Utilities.Callback.ICallback">
+      <point x="103.25" y="-92.5" />
+      <point x="1126.75" y="3870.0" />
+      <point x="934.4722222222222" y="3870.0" />
+      <point x="14.222222222222172" y="25.5" />
+    </edge>
+    <edge source="Utilities.Callback.Callback" target="Utilities.Callback.ICallback">
+      <point x="0.0" y="-14.5" />
+      <point x="1296.5" y="3860.0" />
+      <point x="948.6944444444443" y="3860.0" />
+      <point x="28.444444444444457" y="25.5" />
+    </edge>
+    <edge source="sample.Main" target="Graphics.PaintableFactory">
+      <point x="0.0" y="-36.5" />
+      <point x="4717.2681745843565" y="4590.0" />
+      <point x="4635.974265157683" y="4590.0" />
+      <point x="4635.974265157683" y="3509.0" />
+      <point x="4723.140931824349" y="3509.0" />
+      <point x="0.0" y="258.0" />
+    </edge>
+    <edge source="Networking.MySQL.Manager" target="Game.Game">
+      <point x="43.71428571428575" y="-125.5" />
+      <point x="2211.714285714286" y="3509.0" />
+      <point x="2190.4166666666665" y="3509.0" />
+      <point x="16.91666666666663" y="70.5" />
+    </edge>
+    <edge source="Figure.IFigure" target="Game.Player">
+      <point x="-124.71428571428578" y="-180.0" />
+      <point x="5665.470555536738" y="1041.0" />
+      <point x="4824.4973412510235" y="1041.0" />
+      <point x="33.4375" y="180.5" />
+    </edge>
+    <edge source="Graphics.Types.PaintableObject" target="Graphics.IPaintable">
+      <point x="113.33333333333331" y="-335.0" />
+      <point x="3581.6319444444453" y="961.0" />
+      <point x="4049.9750355787537" y="961.0" />
+      <point x="-55.0" y="235.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Graphics.IPaintableStructure">
+      <point x="-208.5" y="-258.0" />
+      <point x="4514.640931824349" y="2883.0" />
+      <point x="2981.4652777777787" y="2883.0" />
+      <point x="2981.4652777777787" y="2477.0" />
+      <point x="3013.236111111112" y="2477.0" />
+      <point x="-69.375" y="81.0" />
+    </edge>
+    <edge source="Game.Player" target="Figure.Rotation">
+      <point x="-53.5" y="-180.5" />
+      <point x="4737.5598412510235" y="288.0" />
+      <point x="6907.685743464053" y="288.0" />
+      <point x="-38.29411764705878" y="58.5" />
+    </edge>
+    <edge source="Graphics.GUI.GUIManager" target="Graphics.GUI.IGUIMenu">
+      <point x="0.0" y="-37.0" />
+      <point x="56.25" y="92.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Rook" target="Figure.Figure">
+      <point x="-109.125" y="-59.0" />
+      <point x="7335.352166783381" y="2447.0" />
+      <point x="6899.133416783382" y="2447.0" />
+      <point x="81.5625" y="203.0" />
+    </edge>
+    <edge source="Game.Cell" target="Figure.IFigure">
+      <point x="-40.0" y="-92.0" />
+      <point x="2850.1111111111113" y="1891.0" />
+      <point x="5651.959841251024" y="1891.0" />
+      <point x="-138.2249999999999" y="180.0" />
+    </edge>
+    <edge source="Figure.Figures.Unpromotable.Gold" target="Figure.Figure">
+      <point x="-109.125" y="-59.0" />
+      <point x="7024.352166783381" y="2457.0" />
+      <point x="6866.508416783382" y="2457.0" />
+      <point x="48.9375" y="203.0" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.IFigure">
+      <point x="-125.0666666666666" y="-115.0" />
+      <point x="7651.730674584356" y="4254.0" />
+      <point x="5092.9348412510235" y="4254.0" />
+      <point x="5092.9348412510235" y="1941.0" />
+      <point x="5724.709841251024" y="1941.0" />
+      <point x="-65.47499999999991" y="180.0" />
+    </edge>
+    <edge source="Graphics.Types.PaintableFigure" target="Figure.IFigure">
+      <point x="204.0625" y="-137.0" />
+      <point x="4387.548611111112" y="2467.0" />
+      <point x="4665.134681824349" y="2467.0" />
+      <point x="4665.134681824349" y="1911.0" />
+      <point x="5681.0598412510235" y="1911.0" />
+      <point x="-109.125" y="180.0" />
+    </edge>
+    <edge source="Graphics.ImageLayer" target="Graphics.ILayer">
+      <point x="0.0" y="-169.5" />
+      <point x="3856.1480746814914" y="268.0" />
+      <point x="3884.236111111112" y="268.0" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Utilities.Generator.Generator">
+      <point x="17.86666666666656" y="-115.0" />
+      <point x="7794.66400791769" y="4194.0" />
+      <point x="7812.271527777779" y="4194.0" />
+      <point x="48.25" y="71.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Figure.Figures.Promotable.Rook">
+      <point x="236.29999999999995" y="-258.0" />
+      <point x="4959.440931824349" y="2913.0" />
+      <point x="7371.727166783381" y="2913.0" />
+      <point x="-72.75" y="59.0" />
+    </edge>
+    <edge source="Game.PlayGround" target="Game.Player">
+      <point x="-155.0" y="-148.0" />
+      <point x="2395.0" y="2477.0" />
+      <point x="2446.0" y="2477.0" />
+      <point x="2446.0" y="1021.0" />
+      <point x="4757.6223412510235" y="1021.0" />
+      <point x="-33.4375" y="180.5" />
+    </edge>
+    <edge source="Figure.IFigure" target="Figure.Move">
+      <point x="0.0" y="-180.0" />
+      <point x="5790.1848412510235" y="1011.0" />
+      <point x="5657.804265873016" y="1011.0" />
+      <point x="10.761904761904589" y="81.5" />
+    </edge>
+    <edge source="Utilities.Matrix.Rotation" target="Utilities.Debug.ConsoleResults">
+      <point x="-147.66666666666663" y="-59.5" />
+      <point x="6551.04460387112" y="3870.0" />
+      <point x="5311.1848412510235" y="3870.0" />
+      <point x="69.25" y="92.5" />
+    </edge>
+    <edge source="sample.Main" target="Game.PlayGround">
+      <point x="-75.11111111111131" y="-36.5" />
+      <point x="4642.157063473245" y="4630.0" />
+      <point x="2777.6111111111113" y="4630.0" />
+      <point x="2777.6111111111113" y="2923.0" />
+      <point x="2581.0" y="2923.0" />
+      <point x="31.0" y="148.0" />
+    </edge>
+    <edge source="Figure.Figures.Unpromotable.Gold" target="Figure.IFigure">
+      <point x="-36.375" y="-59.0" />
+      <point x="7097.102166783381" y="2457.0" />
+      <point x="7057.047341251024" y="2457.0" />
+      <point x="7057.047341251024" y="1901.0" />
+      <point x="5884.759841251023" y="1901.0" />
+      <point x="94.57500000000005" y="180.0" />
+    </edge>
+    <edge source="sample.Main" target="Figure.Rotation">
+      <point x="-37.55555555555566" y="-36.5" />
+      <point x="4679.712619028801" y="4610.0" />
+      <point x="2799.6111111111113" y="4610.0" />
+      <point x="2799.6111111111113" y="278.0" />
+      <point x="6902.215155228759" y="278.0" />
+      <point x="-43.764705882353155" y="58.5" />
+    </edge>
+    <edge source="Graphics.GUI.Prefabs.Menu" target="Graphics.GUI.Components.Button">
+      <point x="30.571428571428584" y="-148.0" />
+      <point x="740.891686489118" y="4234.0" />
+      <point x="885.833333333333" y="4234.0" />
+      <point x="-137.66666666666674" y="92.5" />
+    </edge>
+    <edge source="Graphics.Types.PaintableCell" target="Game.Player">
+      <point x="239.6875" y="-148.0" />
+      <point x="3693.173611111112" y="2477.0" />
+      <point x="3648.798611111112" y="2477.0" />
+      <point x="3648.798611111112" y="1041.0" />
+      <point x="4784.3723412510235" y="1041.0" />
+      <point x="-6.6875" y="180.5" />
+    </edge>
+    <edge source="Graphics.Types.PaintableCell" target="Graphics.ImageLayer">
+      <point x="335.5625" y="-148.0" />
+      <point x="3789.048611111112" y="2477.0" />
+      <point x="3767.1480746814914" y="2477.0" />
+      <point x="-89.0" y="169.5" />
+    </edge>
+    <edge source="Graphics.GUI.Prefabs.Menu" target="Graphics.GUI.IGUIMenu">
+      <point x="91.71428571428572" y="-148.0" />
+      <point x="802.0345436319753" y="4254.0" />
+      <point x="1419.25" y="4254.0" />
+      <point x="-56.25" y="92.0" />
+    </edge>
+    <edge source="Figure.IFigure" target="Figure.Rotation">
+      <point x="124.71428571428578" y="-180.0" />
+      <point x="5914.899126965309" y="981.0" />
+      <point x="5868.82813431825" y="981.0" />
+      <point x="5868.82813431825" y="318.0" />
+      <point x="6924.097508169935" y="318.0" />
+      <point x="-21.882352941176578" y="58.5" />
+    </edge>
+    <edge source="Game.Game" target="Game.PlayGround">
+      <point x="0.0" y="-70.5" />
+      <point x="2173.5" y="2903.0" />
+      <point x="2395.0" y="2903.0" />
+      <point x="-155.0" y="148.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Pawn" target="Figure.IFigure">
+      <point x="-36.375" y="-59.0" />
+      <point x="7794.896527777779" y="2427.0" />
+      <point x="7473.229861111112" y="2427.0" />
+      <point x="7473.229861111112" y="1881.0" />
+      <point x="5913.859841251024" y="1881.0" />
+      <point x="123.67500000000018" y="180.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Figure.Figures.Promotable.Lance">
+      <point x="152.9000000000001" y="-258.0" />
+      <point x="4876.040931824349" y="2883.0" />
+      <point x="6402.383416783382" y="2883.0" />
+      <point x="-72.75" y="59.0" />
+    </edge>
+    <edge source="Figure.Figures.Unpromotable.Gold" target="Figure.Move">
+      <point x="36.375" y="-59.0" />
+      <point x="7169.852166783381" y="2467.0" />
+      <point x="7379.047341251024" y="2467.0" />
+      <point x="7379.047341251024" y="921.0" />
+      <point x="5733.13759920635" y="921.0" />
+      <point x="86.09523809523807" y="81.5" />
+    </edge>
+    <edge source="Graphics.GUI.Components.TextField" target="Utilities.Callback.ICallback">
+      <point x="-93.0" y="-103.5" />
+      <point x="93.0" y="3840.0" />
+      <point x="863.3611111111113" y="3840.0" />
+      <point x="-56.888888888888914" y="25.5" />
+    </edge>
+    <edge source="Figure.Move" target="Figure.IFigure">
+      <point x="32.28571428571422" y="81.5" />
+      <point x="5679.3280753968265" y="991.0" />
+      <point x="5873.32769839388" y="991.0" />
+      <point x="83.14285714285711" y="-180.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Silver" target="Figure.Figure">
+      <point x="109.125" y="-59.0" />
+      <point x="5962.258416783382" y="2447.0" />
+      <point x="6736.008416783382" y="2447.0" />
+      <point x="-81.5625" y="203.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Pawn" target="Figure.Move">
+      <point x="36.375" y="-59.0" />
+      <point x="7867.646527777779" y="2477.0" />
+      <point x="7898.521527777779" y="2477.0" />
+      <point x="7898.521527777779" y="901.0" />
+      <point x="5754.66140873016" y="901.0" />
+      <point x="107.6190476190477" y="81.5" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.Figures.Promotable.Rook">
+      <point x="71.4666666666667" y="-115.0" />
+      <point x="7848.26400791769" y="4224.0" />
+      <point x="7893.021527777779" y="4224.0" />
+      <point x="7893.021527777779" y="2813.0" />
+      <point x="7517.227166783381" y="2813.0" />
+      <point x="72.75" y="59.0" />
+    </edge>
+    <edge source="Networking.MySQL.Manager" target="Figure.Move">
+      <point x="87.42857142857156" y="-125.5" />
+      <point x="2255.4285714285716" y="3509.0" />
+      <point x="2285.5" y="3509.0" />
+      <point x="2285.5" y="1101.0" />
+      <point x="5593.232837301588" y="1101.0" />
+      <point x="-53.80952380952385" y="81.5" />
+    </edge>
+    <edge source="sample.Main" target="Game.Player">
+      <point x="56.333333333333485" y="-36.5" />
+      <point x="4773.6015079176905" y="4620.0" />
+      <point x="8213.738194444446" y="4620.0" />
+      <point x="8213.738194444446" y="891.0" />
+      <point x="4877.9973412510235" y="891.0" />
+      <point x="86.9375" y="180.5" />
+    </edge>
+    <edge source="Graphics.GUI.Components.Label" target="Utilities.Callback.ICallback">
+      <point x="101.25" y="-103.5" />
+      <point x="695.75" y="3870.0" />
+      <point x="906.0277777777778" y="3870.0" />
+      <point x="-14.222222222222172" y="25.5" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Figure.Figures.Unpromotable.Gold">
+      <point x="208.5" y="-258.0" />
+      <point x="4931.640931824349" y="2903.0" />
+      <point x="7060.727166783381" y="2903.0" />
+      <point x="-72.75" y="59.0" />
+    </edge>
+    <edge source="Graphics.GUI.Prefabs.MainMenu" target="Graphics.GUI.Prefabs.Menu">
+      <point x="-117.375" y="-114.5" />
+      <point x="1514.9988293462611" y="4630.0" />
+      <point x="710.3202579176896" y="4630.0" />
+      <point x="0.0" y="148.0" />
+    </edge>
+    <edge source="Graphics.IPaintableStructure" target="Graphics.Types.PaintableObject">
+      <point x="0.0" y="-81.0" />
+      <point x="3082.611111111112" y="1881.0" />
+      <point x="3322.584325396826" y="1881.0" />
+      <point x="-145.71428571428572" y="335.0" />
+    </edge>
+    <edge source="Game.Game" target="Figure.Move">
+      <point x="-67.66666666666652" y="-70.5" />
+      <point x="2105.8333333333335" y="2923.0" />
+      <point x="2113.6568062520723" y="2923.0" />
+      <point x="2113.6568062520723" y="1091.0" />
+      <point x="5582.470932539683" y="1091.0" />
+      <point x="-64.57142857142844" y="81.5" />
+    </edge>
+    <edge source="Utilities.Matrix.Rotation" target="Figure.Rotation">
+      <point x="147.66666666666697" y="-59.5" />
+      <point x="6846.377937204454" y="3870.0" />
+      <point x="7600.477166783381" y="3870.0" />
+      <point x="7600.477166783381" y="298.0" />
+      <point x="6973.332802287582" y="298.0" />
+      <point x="27.352941176470267" y="58.5" />
+    </edge>
+    <edge source="Networking.MoveManager" target="Networking.MySQL.Manager">
+      <point x="-74.88888888888869" y="-93.0" />
+      <point x="2395.2222222222226" y="4234.0" />
+      <point x="2283.5555555555557" y="4234.0" />
+      <point x="2283.5555555555557" y="3870.0" />
+      <point x="2244.5" y="3870.0" />
+      <point x="76.5" y="125.5" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Game.PlayGround">
+      <point x="-264.0999999999999" y="-258.0" />
+      <point x="4459.040931824349" y="2903.0" />
+      <point x="2705.0" y="2903.0" />
+      <point x="155.0" y="148.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Graphics.Types.PaintableFigure">
+      <point x="-97.30000000000018" y="-258.0" />
+      <point x="4625.840931824348" y="2843.0" />
+      <point x="4020.236111111112" y="2843.0" />
+      <point x="-163.25" y="137.0" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.Figures.Promotable.Silver">
+      <point x="-53.59999999999991" y="-115.0" />
+      <point x="7723.197341251023" y="4214.0" />
+      <point x="7635.021527777779" y="4214.0" />
+      <point x="7635.021527777779" y="2863.0" />
+      <point x="5925.883416783382" y="2863.0" />
+      <point x="72.75" y="59.0" />
+    </edge>
+    <edge source="Graphics.Types.PaintableFigure" target="Graphics.TextLayer">
+      <point x="122.4375" y="-137.0" />
+      <point x="4305.923611111112" y="2477.0" />
+      <point x="4276.225035578754" y="2477.0" />
+      <point x="4276.225035578754" y="961.0" />
+      <point x="4457.7473412510235" y="961.0" />
+      <point x="0.0" y="246.5" />
+    </edge>
+    <edge source="Graphics.Types.PaintableFigure" target="Graphics.ImageLayer">
+      <point x="-204.0625" y="-137.0" />
+      <point x="3979.423611111112" y="2477.0" />
+      <point x="3945.1480746814914" y="2477.0" />
+      <point x="89.0" y="169.5" />
+    </edge>
+    <edge source="Networking.MoveTask" target="Game.Game">
+      <point x="144.96428571428578" y="-137.0" />
+      <point x="1978.4642857142858" y="3870.0" />
+      <point x="2004.5" y="3870.0" />
+      <point x="2004.5" y="3509.0" />
+      <point x="2122.75" y="3509.0" />
+      <point x="-50.75" y="70.5" />
+    </edge>
+    <edge source="sample.Main" target="Figure.Setups.Classic">
+      <point x="37.55555555555566" y="-36.5" />
+      <point x="4754.823730139912" y="4610.0" />
+      <point x="7776.797341251024" y="4610.0" />
+      <point x="0.0" y="115.0" />
+    </edge>
+    <edge source="Networking.MoveTask" target="Game.Player">
+      <point x="-144.96428571428578" y="-137.0" />
+      <point x="1688.5357142857142" y="3830.0" />
+      <point x="1511.8118411343085" y="3830.0" />
+      <point x="1511.8118411343085" y="971.0" />
+      <point x="4690.7473412510235" y="971.0" />
+      <point x="-100.3125" y="180.5" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Graphics.IPaintable">
+      <point x="-41.700000000000045" y="-258.0" />
+      <point x="4681.440931824349" y="2823.0" />
+      <point x="4553.298611111112" y="2823.0" />
+      <point x="4553.298611111112" y="951.0" />
+      <point x="4159.975035578754" y="951.0" />
+      <point x="55.0" y="235.0" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.Figures.Promotable.Pawn">
+      <point x="89.33333333333348" y="-115.0" />
+      <point x="7866.130674584357" y="4234.0" />
+      <point x="7904.021527777779" y="4234.0" />
+      <point x="72.75" y="59.0" />
+    </edge>
+    <edge source="Graphics.PaintableFactory" target="Figure.Figures.Promotable.Knight">
+      <point x="180.70000000000005" y="-258.0" />
+      <point x="4903.840931824348" y="2893.0" />
+      <point x="6749.727166783382" y="2893.0" />
+      <point x="-72.75" y="59.0" />
+    </edge>
+    <edge source="Figure.Figures.Unpromotable.King" target="Figure.IFigure">
+      <point x="36.375" y="-59.0" />
+      <point x="5503.5598412510235" y="1961.0" />
+      <point x="5753.8098412510235" y="1961.0" />
+      <point x="-36.375" y="180.0" />
+    </edge>
+    <edge source="Figure.Figures.Unpromotable.King" target="Figure.Move">
+      <point x="-36.375" y="-59.0" />
+      <point x="5430.8098412510235" y="2467.0" />
+      <point x="5196.979861111112" y="2467.0" />
+      <point x="5196.979861111112" y="1141.0" />
+      <point x="5636.280456349207" y="1141.0" />
+      <point x="-10.761904761904589" y="81.5" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.Rotation">
+      <point x="125.0666666666666" y="-115.0" />
+      <point x="7901.864007917689" y="4254.0" />
+      <point x="8198.521527777779" y="4254.0" />
+      <point x="8198.521527777779" y="268.0" />
+      <point x="6989.744566993465" y="268.0" />
+      <point x="43.764705882353155" y="58.5" />
+    </edge>
+    <edge source="Graphics.TextLayer" target="Graphics.ILayer">
+      <point x="0.0" y="-246.5" />
+      <point x="4457.7473412510235" y="258.0" />
+      <point x="3940.636111111112" y="258.0" />
+      <point x="56.39999999999998" y="114.0" />
+    </edge>
+    <edge source="Game.PlayGround" target="Figure.Move">
+      <point x="-31.0" y="-148.0" />
+      <point x="2519.0" y="2477.0" />
+      <point x="2468.0" y="2477.0" />
+      <point x="2468.0" y="1111.0" />
+      <point x="5603.994742063493" y="1111.0" />
+      <point x="-43.047619047619264" y="81.5" />
+    </edge>
+    <edge source="Game.Player" target="Figure.IFigure">
+      <point x="46.8125" y="180.5" />
+      <point x="4837.8723412510235" y="1031.0" />
+      <point x="5707.041984108167" y="1031.0" />
+      <point x="-83.14285714285711" y="-180.0" />
+    </edge>
+    <edge source="sample.Main" target="Utilities.Debug.ConsoleResults">
+      <point x="18.77777777777783" y="-36.5" />
+      <point x="4736.045952362135" y="4600.0" />
+      <point x="4780.224265157683" y="4600.0" />
+      <point x="4780.224265157683" y="3870.0" />
+      <point x="5172.6848412510235" y="3870.0" />
+      <point x="-69.25" y="92.5" />
+    </edge>
+    <edge source="Figure.Setups.Classic" target="Figure.Setups.IFigureSetup">
+      <point x="107.20000000000027" y="-115.0" />
+      <point x="7883.9973412510235" y="4244.0" />
+      <point x="8054.021527777779" y="4244.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Silver" target="Figure.IFigure">
+      <point x="-36.375" y="-59.0" />
+      <point x="5816.758416783382" y="2427.0" />
+      <point x="5784.6848412510235" y="2427.0" />
+      <point x="5784.6848412510235" y="1971.0" />
+      <point x="5782.909841251023" y="1971.0" />
+      <point x="-7.275000000000091" y="180.0" />
+    </edge>
+    <edge source="Networking.MoveManager" target="Game.Player">
+      <point x="74.88888888888869" y="-93.0" />
+      <point x="2545.0" y="4194.0" />
+      <point x="2353.5" y="4194.0" />
+      <point x="2353.5" y="1011.0" />
+      <point x="4744.2473412510235" y="1011.0" />
+      <point x="-46.8125" y="180.5" />
+    </edge>
+    <edge source="Figure.Figures.Promotable.Silver" target="Figure.Move">
+      <point x="-109.125" y="-59.0" />
+      <point x="5744.008416783382" y="2427.0" />
+      <point x="5634.1848412510235" y="2427.0" />
+      <point x="5634.1848412510235" y="1151.0" />
+      <point x="5647.042361111112" y="1151.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="Graphics.GUI.Prefabs.Menu" target="Graphics.GUI.Components.Label">
+      <point x="-30.571428571428555" y="-148.0" />
+      <point x="679.7488293462611" y="4234.0" />
+      <point x="493.25" y="4234.0" />
+      <point x="-101.25" y="103.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.1" x="4502.0" y="2752.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

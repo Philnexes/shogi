@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<skin setup="Classic">
+    <description>Legendary skin for shogi. Used for first thousands runs in development.</description>
+    <author>David Bulawa</author>
+    <builder>Martin Gaier</builder>
+    <version>1.0</version>
+    <appversion>1.0</appversion>
+    <settings>
+        <figure sizeX="192" sizeY="210" spaceX="40" spaceY="12" />
+        <cell sizeX="212" sizeY="210" spaceX="25" spaceY="12" />
+        <playground positionX="675" positionY="168" sizeX="2117" sizeY="2117">
+            <!-- custom position definition for figure/cell -->
+        </playground>
+    </settings>
+</skin>

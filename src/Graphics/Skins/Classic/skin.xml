@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<skin setup="Classic">
+    <description>Classic skin for shogi.</description>
+    <author>Sleepy Crash</author>
+    <author>Martin Gaier</author>
+    <builder>Martin Gaier</builder>
+    <version>3.3</version>
+    <appversion>5.35</appversion>
+    <settings>
+        <figure sizeX="192" sizeY="210" spaceX="40" spaceY="12" />
+        <cell sizeX="212" sizeY="210" spaceX="25" spaceY="12" />
+        <playground positionX="675" positionY="168" sizeX="2117" sizeY="2117">
+            <!-- custom position definition for figure/cell -->
+            <!--
+            <figure x="8" y="8" positionY="182" sizeY="248" />
+            <cell x="8" y="8" positionX="180" sizeX="128"/>
+            -->
+        </playground>
+    </settings>
+</skin>

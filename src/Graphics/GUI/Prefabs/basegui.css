@@ -1,0 +1,12 @@
+.gui-progressbar {
+    -fx-accent: red;
+    -fx-background-color: transparent;
+}
+.gui-progressbar > .track {
+    -fx-background-color: transparent;
+}
+.gui-progressbar > .bar {
+    -fx-background-color: linear-gradient(to right, transparent 0%, -fx-accent 95%, transparent 100%);
+    -fx-background-insets: 0 0 0 0;
+    -fx-background-radius: 20;
+}

@@ -1,0 +1,49 @@
+.gui-button, .gui-button:focused {
+    -fx-background-color: transparent;
+    -fx-background-image: url('../../Skins/Classic/GUI/Button/button.png');
+    -fx-background-size: stretch;
+    -fx-border-style: none;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 24px;
+}
+.gui-button:hover {
+    -fx-background-image: url('../../Skins/Classic/GUI/Button/button_hovered.png');
+}
+.gui-button:pressed {
+    -fx-background-image: url('../../Skins/Classic/GUI/Button/button_clicked.png');
+}
+.gui-progressbar {
+    -fx-progress-color: red;
+    -fx-background-color: transparent;
+    -fx-border-style: none;
+}
+#gui-background {
+    -fx-background-color: transparent;
+    -fx-background-image: url('../../Skins/Classic/GUI/Background/background.png');
+    -fx-background-size: stretch;
+}
+
+#game-background {
+    -fx-background-color: transparent;
+    -fx-background-image: url('../../Skins/Classic/Playground/table.png');
+    -fx-background-size: stretch;
+}
+.gui-input {
+    -fx-border-color: transparent;
+    -fx-background-color: radial-gradient(center 50% 50%,radius 50%, rgba(102,102,102,1) 0%,rgba(102,102,102,0.5) 100%);
+    -fx-background-radius: 5px;
+    -fx-border-style: none;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+}
+.gui-input .gui-input-label {
+    -fx-border-style: none;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-min-width: 5em;
+}
+
+.gui-input .gui-input-input {
+    -fx-background-color: transparent;
+}
